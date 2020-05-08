@@ -33,12 +33,19 @@ function calc(){
 
   var dayOfTheWeek = parseInt(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
 
-  alert(dayOfTheWeek);
+  var sex = discover.gender.value;
+
+  var mname = ['Kwame','Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi'];
+  var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
+  var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday']
+
+  alert(day[dayOfTheWeek] + mname[dayOfTheWeek]);
+
+
 }
 
 
-var mname = ['Kwame','Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi'];
-var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
+
 
 //function calc(cc){
   //var result = ((cc/4) -2*cc-1)
