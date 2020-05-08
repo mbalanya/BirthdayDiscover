@@ -24,11 +24,13 @@ function calc(){
 
   var yy = document.getElementById('birthdayDate').value;
   yy = parseInt(yy.charAt(2) + yy.charAt(3));
-  alert(yy);
+
+  var mm = document.getElementById('birthdayDate').value;
+  mm = parseInt(mm.charAt(5) + mm.charAt(6));
 
   var dd = document.getElementById('birthdayDate').value;
-  dd = dd.charAt(1);
-  //alert(dd);
+  dd = parseInt(dd.charAt(8) + dd.charAt(9));
+  alert(dd);
 }
 
 
