@@ -1,5 +1,6 @@
 var discover = document.getElementById('discover');
-
+var mname = ['Kwame','Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi'];
+var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
 
 discover.onsubmit = function(e) {
   e.preventDefault();
@@ -11,6 +12,7 @@ discover.onsubmit = function(e) {
   discover.reset();
 
 };
+
 calculator = function(gender, birthdayDate){
 
 }
