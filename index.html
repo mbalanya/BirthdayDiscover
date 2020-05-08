@@ -35,34 +35,11 @@
             </div>
             <div class="card-body">
               <form class="" action="index.html" method="post">
-                <div class="form-row align-items-center">
-                  <p>Enter your Birthday Date: </p>
-                  <div class="col-auto my-1">
-                    <label class="mr-sm-2 sr-only" for="birthdayDate">Enter your Birthday Date: </label>
-                    <select class="custom-select mr-sm-2" id="selectDay">
-                      <option selected>Day...</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
+                <div class="form-group">
+                  <label for="birthdayDate">Enter Your Birthday: </label>
+                  <input type="date" name="birthdayDate" class='form-control' maxlength="8" title="Enter a date in this format DD-MM-YYYY">
 
-                  <div class="col-auto my-1">
-                    <label class="mr-sm-2 sr-only" for="birthdayDate">Enter your Birthday Month: </label>
-                    <select class="custom-select mr-sm-2" id="selectMonth">
-                      <option selected>Month...</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
-
-                  <div class="col-auto my-1">
-                    <label class="mr-sm-2 sr-only" for="birthdayDate">Enter your Birthday Year: </label>
-                    <select class="custom-select mr-sm-2" id="selectYear"></select>
-                  </div>
                 </div>
-                <br>
                 <div class="form-group">
                   <label for="gender">Select your Gender: </label><br>
                   <input type="radio" id="male" name="gender" value="male">
