@@ -34,7 +34,7 @@
               <h3>Discover Your Akan!</h3>
             </div>
             <div class="card-body">
-              <form id='discover'>
+              <form id='discover' onsubmit="return validateForm()">
                 <div class="form-group">
                   <label for="birthdayDate">Enter Your Birthday: </label>
                   <input id='birthdayDate' type="date" name="birthdayDate" class='form-control' maxlength="8" title="Enter a date in this format DD-MM-YYYY">

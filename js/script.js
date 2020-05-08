@@ -10,6 +10,14 @@ discover.onsubmit = function(e) {
   discover.reset();
 };
 
+function validateForm() {
+  var x = document.forms['discover']['birthdayDate'].value['gender'].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
 function calc(){
   var cc = document.getElementById('birthdayDate').value;
   cc = parseInt(cc.charAt(0) + cc.charAt(1));
@@ -20,7 +28,7 @@ function calc(){
 
   var dd = document.getElementById('birthdayDate').value;
   dd = dd.charAt(1);
-  alert(dd);
+  //alert(dd);
 }
 
 
