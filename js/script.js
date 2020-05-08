@@ -30,15 +30,12 @@ function calc(){
 
   var dd = document.getElementById('birthdayDate').value;
   dd = parseInt(dd.charAt(8) + dd.charAt(9));
-  alert(dd);
+
+  var dayOfTheWeek = parseInt(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+
+  alert(dayOfTheWeek);
 }
 
-
-
-//var DD = discover.birthdayDate.value.slice(6, 8);
-//var MM = discover.birthdayDate.value.slice(4, 6);
-//var cc = document.getElementById('birthdayDate').value;
-//var YY = discover.birthdayDate.value.slice(2, 4);
 
 var mname = ['Kwame','Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi'];
 var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
