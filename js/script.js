@@ -39,17 +39,21 @@ function calc(){
   var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
   var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday']
 
-  alert(day[dayOfTheWeek] + mname[dayOfTheWeek]);
+  var weekday = day[dayOfTheWeek];
+  var mAkanName = mname[dayOfTheWeek];
+  var fAkanName = fname[dayOfTheWeek]
 
-
-}
-
-
-
-
-//function calc(cc){
-  //var result = ((cc/4) -2*cc-1)
-//  alert(cc);
-//}
-
-//return ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
+    if (sex === 'male'){
+      alert('You were born on a ' + weekday + ', and your Akan name is ' + mAkanName + '.');
+    }else{
+      alert('You were born on a ' + weekday + ', and your Akan name is ' + fAkanName + '.');
+    }
+/*
+    function i(weekday, mAkanName, fAkanName){
+      if (sex === 'male'){
+          document.getElementById('feedback').innerHTML = 'You were born on a ' + weekday + ' and your Akan name is ' + mAkanName + '.';
+      }else{
+          document.getElementById('feedback').innerHTML = 'You were born on a ' + weekday + ' and your Akan name is ' + fAkanName + '.';
+      }
+    } */
+  }
