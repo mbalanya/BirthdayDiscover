@@ -37,7 +37,7 @@
               <form id='discover'>
                 <div class="form-group">
                   <label for="birthdayDate">Enter Your Birthday: </label>
-                  <input type="date" name="birthdayDate" class='form-control' maxlength="8" title="Enter a date in this format DD-MM-YYYY">
+                  <input id='birthdayDate' type="date" name="birthdayDate" class='form-control' maxlength="8" title="Enter a date in this format DD-MM-YYYY">
 
                 </div>
                 <div class="form-group">
@@ -46,7 +46,7 @@
                   <label for="male">Male</label><br>
                   <input type="radio" id="female" name="gender" value="female">
                   <label for="female">Female</label><br>
-                  <button type="submit" class="btn btn-primary" name="btn">Discover!</button>
+                  <button onclick='calc()' type="submit" class="btn btn-primary" name="btn">Discover!</button>
                 </div>
               </form>
 
