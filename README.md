@@ -11,6 +11,8 @@ The pp is still not able to fetch user input so as to perform the desired calcul
 The site is built on html, css and JavaScript
 ## Support and contact details
 If you run to any issue with the site make sure to link up with me and i will respond promptly. Thanks
+## Contact Info
+Contact me at okobacharles@yahoo.co.uk
 ### License
 MIT license
 Copyright (c) 2020
