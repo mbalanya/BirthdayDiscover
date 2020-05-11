@@ -35,8 +35,8 @@ function calc(){
 
   var sex = discover.gender.value;
 
-  var mname = ['Kwame','Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi'];
-  var fname = ['Ama', 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua'];
+  var mname = ['Kwasi', 'Kwadwo', 'Kwebena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+  var fname = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
   var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday']
 
   var weekday = day[dayOfTheWeek];
@@ -48,12 +48,4 @@ function calc(){
     }else{
       alert('You were born on a ' + weekday + ', and your Akan name is ' + fAkanName + '.');
     }
-/*
-    function i(weekday, mAkanName, fAkanName){
-      if (sex === 'male'){
-          document.getElementById('feedback').innerHTML = 'You were born on a ' + weekday + ' and your Akan name is ' + mAkanName + '.';
-      }else{
-          document.getElementById('feedback').innerHTML = 'You were born on a ' + weekday + ' and your Akan name is ' + fAkanName + '.';
-      }
-    } */
   }

@@ -6,8 +6,7 @@ This WebApp that takes user's birthday date and their gender and calculates what
 ## Setup/Installation Requirements
 * Ensure you have a browser, and an internet connection
 ## Known Bugs
-* The pp is still not able to fetch user input so as to perform the desired calculations
-* Form validation not working effectively.
+* None found. Feel free to contact me incase you find some. Thanks.
 ## Technologies Used
 The site is built on html, css and JavaScript
 ## Support and contact details
